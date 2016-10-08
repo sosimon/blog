@@ -64,6 +64,12 @@ body {
   color: #111111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
+  opacity: 1;
+  transition: 200ms opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 @media (min-width: 600px) {
   body {
@@ -71,6 +77,12 @@ body {
     -moz-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
+    opacity: 1;
+    transition: 200ms opacity;
+  }
+  body.fade-out {
+    opacity: 0;
+    transition: none;
   }
   .non-narrow.zero-top-spacing {
     padding-top: 0 !important;

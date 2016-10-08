@@ -5,4 +5,4 @@ title = "things"
 
 +++
 
-All the things.
+All the things!

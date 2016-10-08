@@ -4,6 +4,8 @@
 {{ partial "head.html" . }}
 
 <body lang="{{ .Site.Params.Lang }}">
+<script>document.body.className += " fade-out";</script>
+<script>window.onload = function () { document.body.className = "";}</script>
 
 <section class="header"> 
     <div class="container">
