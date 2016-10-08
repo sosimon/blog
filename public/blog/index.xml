@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Simon So</title>
+    <link>https://sosimon.github.io/blog/</link>
+    <description>Recent content in Blog on Simon So</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 08 Oct 2016 10:10:38 -0700</lastBuildDate>
+    <atom:link href="https://sosimon.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TIL: ternary in bash</title>
+      <link>https://sosimon.github.io/blog/til-ternary-in-bash/</link>
+      <pubDate>Sat, 08 Oct 2016 10:10:38 -0700</pubDate>
+      
+      <guid>https://sosimon.github.io/blog/til-ternary-in-bash/</guid>
+      <description>&lt;p&gt;I have been working with shell scripts for 4-5 years now, and I only recently saw, for the first time, someone shortcut the classic if/else/then statements:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[ $condition == &amp;quot;true&amp;quot; ] &amp;amp;&amp;amp; echo &amp;quot;true&amp;quot; || echo &amp;quot;false&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It took me a few minutes of staring at it to make sure it works the way I think it works.&lt;/p&gt;
+
+&lt;p&gt;Having seen this though, I am of the opinion that it&amp;rsquo;s probably better to be a bit more verbose:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [ $condition == &amp;quot;true&amp;quot; ]; then
+  echo &amp;quot;true&amp;quot;
+else
+  echo &amp;quot;false&amp;quot;
+fi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I think it&amp;rsquo;s more natural, easier to read and understand, better for the next guy/gal who needs to read and decipher your script.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First!</title>
+      <link>https://sosimon.github.io/blog/first/</link>
+      <pubDate>Fri, 07 Oct 2016 12:46:55 -0700</pubDate>
+      
+      <guid>https://sosimon.github.io/blog/first/</guid>
+      <description>&lt;p&gt;Hopefully, first of many!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

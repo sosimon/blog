@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Don&#39;t panic">
+
+<base href="https://sosimon.github.io/">
+<title>
+
+
+     TIL: ternary in bash 
+
+</title>
+<link rel="canonical" href="https://sosimon.github.io/blog/til-ternary-in-bash/">
+
+
+<script type="text/javascript">
+    var baseURL = 'https:\/\/sosimon.github.io\/';
+    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https:';
+    }
+</script>
+
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://sosimon.github.io/css/reset.css">
+<link rel="stylesheet" href="https://sosimon.github.io/css/pygments.css">
+<link rel="stylesheet" href="https://sosimon.github.io/css/main.css">
+
+
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://sosimon.github.io/img/leaf.ico"
+
+>
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header"> 
+    <div class="container">
+        <div class="content">
+            <a href="https://sosimon.github.io/"><div class="name">Simon So</div></a>
+            <nav>
+                <ul>
+                    <a href="https://sosimon.github.io/blog/"><li>Blogs</li></a>
+                    <a href="https://sosimon.github.io/about/"><li>About</li></a>
+                    <a href="https://sosimon.github.io/things/"><li>Things</li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="//github.com/sosimon" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="//twitter.com/sosimon" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="//linkedin.com/in/simon-so-3a609023" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:simon.so@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+        
+        
+            <a href="https://sosimon.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <div class="content">
+            powered by <a href="https://gohugo.io/">hugo</a>
+        </div>
+    </div>
+</section>
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    TIL: ternary in bash
+
+</div>
+
+                    <div class="initials"><a href="https://sosimon.github.io/">ss</a></div>
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sat Oct 8 2016 10:10:38 PST">Oct 8, 2016</div>
+                    <div class="reading-time"><div class="middot"></div>1 minute read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                <p>I have been working with shell scripts for 4-5 years now, and I only recently saw, for the first time, someone shortcut the classic if/else/then statements:</p>
+
+<pre><code class="language-bash">[ $condition == &quot;true&quot; ] &amp;&amp; echo &quot;true&quot; || echo &quot;false&quot;
+</code></pre>
+
+<p>It took me a few minutes of staring at it to make sure it works the way I think it works.</p>
+
+<p>Having seen this though, I am of the opinion that it&rsquo;s probably better to be a bit more verbose:</p>
+
+<pre><code class="language-bash">if [ $condition == &quot;true&quot; ]; then
+  echo &quot;true&quot;
+else
+  echo &quot;false&quot;
+fi
+</code></pre>
+
+<p>I think it&rsquo;s more natural, easier to read and understand, better for the next guy/gal who needs to read and decipher your script.</p>
+
+                <br>
+                <p><a href="https://sosimon.github.io/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

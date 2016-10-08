@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://sosimon.github.io/</loc>
+    <lastmod>2016-10-08T10:10:38-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sosimon.github.io/blog/til-ternary-in-bash/</loc>
+    <lastmod>2016-10-08T10:10:38-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sosimon.github.io/things/</loc>
+    <lastmod>2016-10-07T18:14:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sosimon.github.io/about/</loc>
+    <lastmod>2016-10-07T17:44:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sosimon.github.io/blog/first/</loc>
+    <lastmod>2016-10-07T12:46:55-07:00</lastmod>
+  </url>
+  
+</urlset>
