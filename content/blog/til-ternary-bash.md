@@ -7,7 +7,7 @@ title = "TIL: ternary in bash"
 
 I have been working with shell scripts for 4-5 years now, and I only recently saw, for the first time, someone shortcut the classic if/else/then statements:
 
-```bash
+``` bash
 [ $condition == "true" ] && echo "true" || echo "false"
 ```
 
@@ -15,7 +15,7 @@ It took me a few minutes of staring at it to make sure it works the way I think 
 
 Having seen this though, I am of the opinion that it's probably better to be a bit more verbose:
 
-```bash
+``` bash
 if [ $condition == "true" ]; then
   echo "true"
 else
