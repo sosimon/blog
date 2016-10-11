@@ -65,7 +65,7 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
   opacity: 1;
-  transition: 200ms opacity;
+  transition: 300ms opacity;
 }
 body.fade-out {
     opacity: 0;
@@ -78,7 +78,7 @@ body.fade-out {
     -ms-justify-content: center;
     justify-content: center;
     opacity: 1;
-    transition: 200ms opacity;
+    transition: 300ms opacity;
   }
   body.fade-out {
     opacity: 0;
