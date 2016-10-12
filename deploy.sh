@@ -5,7 +5,11 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo -t cocoa
 
 cd public    # Go To Public folder
+
 git remote set-url origin https://$CI_USER_TOKEN@github.com/sosimon/sosimon.github.io.git
+git config user.email "simon.so@gmail.com"
+git config user.name "Simon So"
+
 git add --all   # Add changes to git.
 
 # Commit changes.
