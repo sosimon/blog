@@ -30,6 +30,6 @@ CMD ["/main"]
 
 We spun up a new VM and deployed in less time than it took to SCP files over to the new mirror.
 
-![wow](http://gph.is/28LuUpP)
+![wow](http://i.giphy.com/l46CkATpdyLwLI7vi.gif)
 
 Unfortunately, we ended up not using it becuase of some other reason, but at least we didn't waste too much time.
