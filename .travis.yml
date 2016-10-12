@@ -4,10 +4,11 @@ go:
 env:
   global:
     secure: oArt/XkV6sMBQ7Rzw8d9lxYe64biR7Ju9dd+mkttyi4QOuWhRHtNHJAgJvCZ8DJa9v9ekquM/oE3DWyTBe+x5xzyRLIo7yZaeC1J6px2VKBa5vwRWiPJHcpKWp+tRGtv8/zwhOXqWuqyS4DCfBeb/bRNnHFqwuUwQ5+HOZjzw97Sx6SnBpmi5wVij/9w5vkRAOR8LBRVIZEYMoB/M2Ara1+qhdc9Nrib+NqIwnMKVm8tcNnc8QEOmPocoXPZQVdQeJKKCnDKni/Bz0z24jAn8x1P6lM+ZSmUmo03v2AOlxMqE+m9vTf6Fpa9cXuCjv1Due2Gdq520R1uM5+htKnIR2YvUOf6lN+F8Pr/J4nEke7DknntF8TDMASUWH9sJKTC8s5sRX1hHL0KKgH+b2r6nfOR5z+u0ie/PcYitYBabj2uOJfUhhTxg7oIlAikXbophDbpuoxjS3PsfCDOJfSOHkEN6dGUaB+XNJ62XPZ7YZQzOzfjUCQwe0KSmBnqdExi7MFMkQTEVP/CuxdTFdgl+PMY9f3yvyjOOiin3zlOpk8YfLFnYZt/aqSulhsv8LS07RW44Ds6XGbNrRuhAatyQPh0aaIwVXbZO3QhPc3DiEmX5k34d8kijBPWMfF701kzYrEJ3efyHYBr3T2XxJZBTakQ5UNzA/9IJPa8YYKRtIc=
+sudo: required
 before_install:
 - echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc
 install:
 - go get github.com/spf13/hugo
-- pip install Pygments
+- sudo pip install Pygments
 before_script: "./setup.sh"
 script: "./deploy.sh"
