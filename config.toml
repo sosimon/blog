@@ -1,5 +1,5 @@
 baseurl = "https://sosimon.github.io/" 
-builddrafts = true
+builddrafts = false
 canonifyurls = true
 contentdir = "content"
 languageCode = "en-US"

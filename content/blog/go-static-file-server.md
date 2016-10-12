@@ -1,6 +1,6 @@
 +++
 date = "2016-10-10T21:02:33-07:00"
-draft = true
+draft = false
 title = "Go: static file server"
 
 +++
