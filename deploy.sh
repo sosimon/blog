@@ -6,7 +6,6 @@ hugo -t cocoa
 
 cd public    # Go To Public folder
 
-git remote set-url origin https://$CI_USER_TOKEN@github.com/sosimon/sosimon.github.io.git
 git config user.email "simon.so@gmail.com"
 git config user.name "Simon So"
 
