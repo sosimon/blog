@@ -1,2 +1,11 @@
-install: ./setup.sh
+language: go
+
+go:
+    - tip
+
+install:
+    - go get github.com/spf13/hugo
+
+before_script: ./setup.sh
+
 script: ./deploy.sh

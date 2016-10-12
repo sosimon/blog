@@ -15,5 +15,10 @@ fi
 git commit -m "$msg"
 
 git push origin master   # Push source and build repos.
+if [ $? != 0 ]; then
+  echo "git push failed"
+  exit 1
+fi
 
 cd .. 
+
