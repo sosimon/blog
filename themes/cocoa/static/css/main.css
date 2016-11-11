@@ -582,6 +582,7 @@ section.icons {
 }
 section.footer {
   visibility: hidden;
+  padding-bottom: 60px;
 }
 section.main {
   padding-top: 32px;
@@ -601,6 +602,7 @@ section.main {
   }
   section.footer {
     visibility: visible;
+    padding-bottom: 60px;
   }
   section.main {
     padding-top: 0;
