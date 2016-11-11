@@ -8,6 +8,7 @@ publishdir = "public"
 author = "Simon So"
 title = "Simon So"
 pygmentsuseclasses = false
+pygmentsStyle = "friendly"
 PygmentsCodeFences = true
 # disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false

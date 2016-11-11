@@ -578,7 +578,7 @@ section.header {
 }
 section.icons {
   padding-top: 0;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
 }
 section.footer {
   visibility: hidden;
@@ -615,7 +615,7 @@ section.main {
   }
   section.main.post {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 }
 a {
@@ -685,7 +685,7 @@ section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
   font-size: 0.98rem;
-  background-color: #444444;
+  background-color: #f7f7f7;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
