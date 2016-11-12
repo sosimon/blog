@@ -6,5 +6,6 @@ build:
     - script:
         name: build
         code: |
+          echo -e "machine github.com\n login $GH_USER_TOKEN" >> ~/.netrc
           ./setup.sh
           ./deploy.sh
