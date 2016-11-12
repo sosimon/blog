@@ -4,8 +4,11 @@ build:
   steps:
     - setup-go-workspace
     - script:
-        name: build
+        name: setup
         code: |
           echo -e "machine github.com\n login $GH_USER_TOKEN" >> ~/.netrc
           ./setup.sh
+    - script:
+        name: deploy
+        code: |
           ./deploy.sh
