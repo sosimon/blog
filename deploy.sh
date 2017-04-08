@@ -18,12 +18,12 @@ cd ../sosimon.github.io
 git add --all   # Add changes to git.
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="Rebuilding site `date`"
 git commit -m "$msg"
 
 git push origin master   # Push source and build repos.
 if [ $? != 0 ]; then
-  echo -e "\033[0;31mgit push failed\033[0m"
+  echo -e "\033[0;31mGit push failed\033[0m"
   exit 1
 fi
 
