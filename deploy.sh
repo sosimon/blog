@@ -4,10 +4,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 hugo -t cocoa
 
-cd public    # Go To Public folder
+mkdir ../sosimon.github.io
+git clone https://github.com/sosimon/sosimon.github.io.git ../sosimon.github.io
 
-git config user.email "simon.so@gmail.com"
-git config user.name "Simon So"
+cp -r public/* ../sosimon.github.io/
+
+cd ../sosimon.github.io
 
 git add --all   # Add changes to git.
 
@@ -22,4 +24,8 @@ if [ $? != 0 ]; then
 fi
 
 echo "deploy OK"
+
+cd ../blog
+rm -rf ../sosimon.github.io
+rm -rf public
 
