@@ -15,6 +15,9 @@ cp -r public/* ../sosimon.github.io/
 
 cd ../sosimon.github.io
 
+git config --global user.email "simon.so@gmail.com"
+git config --global user.name "Simon So"
+
 git add --all   # Add changes to git.
 
 # Commit changes.
