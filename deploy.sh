@@ -4,6 +4,10 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 hugo -t cocoa
 
+if [ -d "../sosimon.github.io" ]; then
+  echo "\033[0;31msosimon.github.io already exists. Please remove and rerun deploy script\033[0m"
+fi
+
 mkdir ../sosimon.github.io
 git clone https://github.com/sosimon/sosimon.github.io.git ../sosimon.github.io
 
@@ -19,11 +23,11 @@ git commit -m "$msg"
 
 git push origin master   # Push source and build repos.
 if [ $? != 0 ]; then
-  echo "git push failed"
+  echo "\033[0;31mgit push failed\033[0m"
   exit 1
 fi
 
-echo "deploy OK"
+echo "\033[0;32mSite deploy OK\033[0m"
 
 cd ../blog
 rm -rf ../sosimon.github.io
