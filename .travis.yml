@@ -10,5 +10,4 @@ before_install:
 install:
 - go get github.com/spf13/hugo
 - sudo pip install Pygments
-before_script: "./setup.sh"
 script: "./deploy.sh"
