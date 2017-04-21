@@ -5,4 +5,4 @@ title = "about"
 
 +++
 
-Simon's personal site.
+Simon writes words and they appear on a screen.

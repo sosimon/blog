@@ -14,7 +14,6 @@ disqusShortname = "sosimon" # Comment out to disable Disqus.
 pluralizelisttitles = false
 
 [permalinks]
-fixed = ":title/"
 blog = "blog/:slug/"
 
 [params]
@@ -25,10 +24,10 @@ DateFormFull = "Mon Jan 2 2006 15:04:05 PST"
 Description = "Don't panic"
 Email = "simon.so@gmail.com"
 FaviconFile = "img/favicon.ico"
-GitHub = "//github.com/sosimon"
+GitHub = "sosimon"
 HighlightJS = true
 Initials = "ss" # Displayed on single post page; DEPRECATED in v0.3.0.
 Lang = "en"
-LinkedIn = "//linkedin.com/in/simon-so-3a609023"
-Twitter = "//twitter.com/sosimon"
+LinkedIn = "simon-so-3a609023"
+Twitter = "sosimon"
 GATracker = "UA-85413734-1"

@@ -2,14 +2,14 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-hugo -t cocoa
+hugo -t cocoa-eh
 
 if [ -d "../sosimon.github.io" ]; then
   echo -e "\033[0;31msosimon.github.io already exists. Please remove and rerun deploy script\033[0m"
 fi
 
 mkdir ../sosimon.github.io
-git clone https://github.com/sosimon/sosimon.github.io.git ../sosimon.github.io
+git clone git@github.com:sosimon/sosimon.github.io.git ../sosimon.github.io
 
 cp -r public/* ../sosimon.github.io/
 
