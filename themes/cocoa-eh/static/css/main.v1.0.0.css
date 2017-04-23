@@ -209,7 +209,7 @@ section.header nav ul li {
   -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul li:hover {
-  color: #111111;
+  color: #428bca;
 }
 @media (min-width: 600px) {
   section.header {
@@ -255,7 +255,7 @@ section.header nav ul li:hover {
     color: #666666;
   }
   section.header nav ul li:hover {
-    color: #333333;
+    color: #428bca;
   }
 }
 section.footer .container {

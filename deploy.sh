@@ -6,6 +6,7 @@ hugo -t cocoa-eh
 
 if [ -d "../sosimon.github.io" ]; then
   echo -e "\033[0;31msosimon.github.io already exists. Please remove and rerun deploy script\033[0m"
+  exit 1
 fi
 
 mkdir ../sosimon.github.io
