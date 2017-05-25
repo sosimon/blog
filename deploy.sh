@@ -31,7 +31,7 @@ if [ $? != 0 ]; then
   exit 1
 fi
 
-echo -e "\033[0;32mSite deploy OK\033[0m"
+echo -e "\033[0;32mSite deploy OK!\033[0m"
 
 cd ../blog
 rm -rf ../sosimon.github.io
