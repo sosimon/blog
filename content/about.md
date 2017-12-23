@@ -5,4 +5,4 @@ title = "about"
 
 +++
 
-Simon writes words and they appear on a screen.
+Simon said so.
