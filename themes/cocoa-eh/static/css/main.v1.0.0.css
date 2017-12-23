@@ -745,9 +745,8 @@ section.main .content .markdown figure img {
     margin-left: -4%;
   }
   section.main .content .markdown img {
-    max-width: 110%;
-    width: 110%;
-    margin-left: -4%;
+    max-width: 100%;
+    width: 100%;
   }
 }
 section.main .content .markdown table {
